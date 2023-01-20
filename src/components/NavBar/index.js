@@ -3,7 +3,7 @@ import './index.css'
 const NavBar = props => {
   const {gameScores} = props
   const {score, topScore, gameCompleted} = gameScores
-  console.log(gameScores)
+  // console.log(gameScores)
   return (
     <nav className="nav-bar">
       <div className="game-logo-name-container">
