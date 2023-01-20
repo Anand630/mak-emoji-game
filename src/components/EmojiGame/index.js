@@ -69,7 +69,7 @@ export default class EmojiGame extends Component {
   render() {
     const {gameCompleted, won, emojisClickedIds, score, topScore} = this.state
     const shuffledEmojisList = this.shuffledEmojisList()
-    console.log(emojisClickedIds)
+    // console.log(emojisClickedIds)
     return (
       <div className="home-container">
         <NavBar gameScores={{score, topScore, gameCompleted}} />
